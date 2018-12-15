@@ -3,7 +3,6 @@ let userLetter = prompt("Enter any letter");
 
 function getLetterCount() {
     let count = 0;
-
     for (let i = 0; i < userString.length; i++) {
         if (userString[i].toLowerCase() === userLetter.toLowerCase()) {
             count++;

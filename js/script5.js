@@ -6,7 +6,7 @@ if (isNaN(minNum) || isNaN(maxNum)) {
 } else if (minNum >= maxNum) {
     console.log("The min number should be less than max number");
 } else {
-    console.log(getRandomNumber())
+    console.log(getRandomNumber());
 }
 
 function getRandomNumber() {
