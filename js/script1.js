@@ -3,7 +3,7 @@ let userNumber;
 
 do {
   let userNumberStr = prompt(message);
-  if (userNumberStr == null) {
+  if (userNumberStr === null) {
     break;
   } else {
     userNumber = Number(userNumberStr);
